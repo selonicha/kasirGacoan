@@ -1,0 +1,37 @@
+.homepage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.homepage img {
+  width: inherit;
+  height: initial;
+  object-fit: cover;
+  filter: blur(5px);
+}
+
+.homepage .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+}
+
+.homepage-blur {
+  background-color: rgba(0, 178, 216, 0.75);
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.title img {
+  width: 10%;
+  filter: drop-shadow(0 0 0.75rem #000000);
+}

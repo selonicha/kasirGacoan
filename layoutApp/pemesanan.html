@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kasir</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="pemesanan.css" />
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <div class="container">
+      <div class="header">
+        <nav
+          class="navbar navbar-expand-lg fixed-top"
+          style="background-color: #00b2d8"
+        >
+          <div class="container-fluid">
+            <nav class="navbar">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="logoGacoan.png"
+                    alt="Bootstrap"
+                    width="30"
+                    height="24"
+                  />
+                </a>
+              </div>
+            </nav>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active fw-bold"
+                    aria-current="page"
+                    href="home.html"
+                    >home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle fw-bold"
+                    href="pemesanan.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >pemesanan</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#noodle">noodle</a></li>
+                    <li><a class="dropdown-item" href="#dimsum">dimsum</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#beverage">beverage</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active fw-bold"
+                    aria-current="page"
+                    href="scan.html"
+                    >Scan</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="justify-content-end">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--Navbar End-->
+    <section id="content" class="" style="padding-top:100px">
+      <div class="container">
+        <div class="nameContent">
+          <h2 class="text-title1">Pemesanan</h2>
+        </div>
+      </div>
+    </section>
+
+    <!--Noodle start-->
+    <section id="noodle" class="">
+      <div class="container">
+        <div class="row">
+          <h3>Noodle</h3>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="mieangel.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Mie angel</h5>
+                <p class="card-text">
+                  Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia yg
+                  super nikmat. Ditemani taburan ayam cincang dan pangsit goreng
+                  yg maknyus abizzzz.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">10k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="miesetan.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">10k - 11k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="mieangel.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">10k - 11k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Noodle end-->
+    <!---Dimsum start-->
+    <section id="dimsum">
+      <div class="container">
+        <div class="row">
+          <h3>Dimsum</h3>
+        </div>
+        <div class="row justify-content-around">
+          <div class="row justify-content-around mb-4">
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img
+                  src="pangsit goreng.jpg"
+                  class="card-img-top p-3"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pangsit Goreng</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img src="siomay.jpg" class="card-img-top p-3" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Siomay</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img src="udangkeju.jpg" class="card-img-top p-3" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Udang Keju</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img
+                  src="udangrambutan.jpg"
+                  class="card-img-top p-3"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Udang Rambutan</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img src="ceker.jpg" class="card-img-top p-3" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Ceker</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img src="lumpiadang.jpg" class="card-img-top p-3" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Lumpia Udang</h5>
+                  <p class="card-text">
+                    Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia
+                    yg super nikmat. Ditemani taburan ayam cincang dan pangsit
+                    goreng yg maknyus abizzzz.
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <p class="fw-semibold">9k</p>
+                    </div>
+                    <div class="col justify-content-end d-flex">
+                      <svg
+                        fill="#EC008C"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-plus-circle-fill"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Dimsum end-->
+    <!--Beverage start-->
+    <section id="beverage">
+      <div class="container">
+        <div class="row">
+          <h3>Beverage</h3>
+        </div>
+        <div class="row justify-content-around mb-4">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="esgenderowo.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Es Genderewo</h5>
+                <p class="card-text">
+                  Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia yg
+                  super nikmat. Ditemani taburan ayam cincang dan pangsit goreng
+                  yg maknyus abizzzz.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">9k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="estuyul.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Es Tuyul</h5>
+                <p class="card-text">
+                  Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia yg
+                  super nikmat. Ditemani taburan ayam cincang dan pangsit goreng
+                  yg maknyus abizzzz.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">9k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img src="pocong.jpg" class="card-img-top p-3" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Es Pocong</h5>
+              <p class="card-text">
+                Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia yg
+                super nikmat. Ditemani taburan ayam cincang dan pangsit goreng
+                yg maknyus abizzzz.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <p class="fw-semibold">9k</p>
+                </div>
+                <div class="col justify-content-end d-flex">
+                  <svg
+                    fill="#EC008C"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    class="bi bi-plus-circle-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="sundelbolong.jpg" class="card-img-top p-3" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Es Sundel Bolong</h5>
+                <p class="card-text">
+                  Semangkuk kelezatan mie dipadukan dgn bumbu racikan rahasia yg
+                  super nikmat. Ditemani taburan ayam cincang dan pangsit goreng
+                  yg maknyus abizzzz.
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <p class="fw-semibold">9k</p>
+                  </div>
+                  <div class="col justify-content-end d-flex">
+                    <svg
+                      fill="#EC008C"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-plus-circle-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Beverage end-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
